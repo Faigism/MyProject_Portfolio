@@ -9,10 +9,11 @@ const About = ({ text }) => {
         <article>
           <SectionTitle text="code and coffee" />
           <p className="text-slate-600 mt-8 leading-loose">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint
-            maiores itaque doloribus asperiores dolorum quas voluptates
-            distinctio, porro beatae quam provident libero animi totam,
-            praesentium voluptatem corrupti dignissimos ipsum accusantium!
+            I want to take my love of programming by writing code and taking
+            every cup. I am constantly inspired by the development of new
+            technologies, solving complex problems and developing new
+            technologies. Programming is not only a job for me, but also a
+            source of creativity, learning and development.
           </p>
         </article>
       </div>

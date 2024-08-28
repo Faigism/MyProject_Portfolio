@@ -7,7 +7,7 @@ const ProjectCard = ({ url, img, github, title, text }) => {
       <img
         src={img}
         alt={title}
-        className="w-full object-cover rounded-t-lg h-64"
+        className="w-full object-contain rounded-t-lg h-64"
       />
       <div className="capitalize p-8">
         <h2 className="text-xl tracking-wide font-medium">{title}</h2>
@@ -18,12 +18,6 @@ const ProjectCard = ({ url, img, github, title, text }) => {
           </a>
           <a href={github}>
             <FaGithubSquare className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
-          </a>
-          <a href={github}>
-            <FaLinkedin className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
-          </a>
-          <a href={github}>
-            <FaTwitterSquare className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
           </a>
         </div>
       </div>
